@@ -19,4 +19,4 @@ Send a `GET` request to `http://HOST/LOCATION-ID` where `LOCATION-ID` is a valid
 curl http://localhost:4711/ABRAHAM-LINCOLN-ALLEE
 ```
 
-[city trash site]: https://web3.karlsruhe.de/service/abfall/akal/akal.php
+[city trash site]: https://web6.karlsruhe.de/service/abfall/akal/akal.php

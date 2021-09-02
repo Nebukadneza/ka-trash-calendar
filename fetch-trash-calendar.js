@@ -13,7 +13,7 @@ function trashDatesToEventList(trashDates) {
     .map(zipObject(['title', 'date']))
 }
 
-const baseUrl = 'https://web3.karlsruhe.de/service/abfall/akal/akal.php'
+const baseUrl = 'https://web6.karlsruhe.de/service/abfall/akal/akal.php'
 
 module.exports = function fetchTrashCalendar(strasse) {
   const url = new URL(baseUrl)
