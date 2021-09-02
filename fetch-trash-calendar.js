@@ -15,10 +15,10 @@ function trashDatesToEventList(trashDates) {
 
 const baseUrl = 'https://web6.karlsruhe.de/service/abfall/akal/akal.php'
 
-module.exports = function fetchTrashCalendar(strasse) {
+module.exports = function fetchTrashCalendar(strasse, number) {
   const url = new URL(baseUrl)
   url.searchParams.set('strasse', strasse)
-
+  url.searchParams.set('hausnr', number)
   return got(url)
   .then(response => cheerio.load(response.body))
   .then(extractTrashDates)
