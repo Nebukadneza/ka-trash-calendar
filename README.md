@@ -5,11 +5,16 @@ A server that parses official Karlsruhe trash collection dates and serves them i
 ## Setup
 
 ```
-$ git clone https://github.com/raphinesse/ka-trash-calendar.git
+$ git clone https://github.com/Nebukadneza/ka-trash-calendar.git
 $ cd ka-trash-calendar
 $ echo 4711 > port.json
 $ npm i && npm start
 ```
+
+## Deploy
+
+You can use the docker images provided on [docker hub][docker hub]
+
 
 ## Usage
 
@@ -20,3 +25,4 @@ curl http://localhost:4711/ABRAHAM-LINCOLN-ALLEE/1
 ```
 
 [city trash site]: https://web6.karlsruhe.de/service/abfall/akal/akal.php
+[docker hub]: https://hub.docker.com/r/nebukadneza/ka-trash-calendar
