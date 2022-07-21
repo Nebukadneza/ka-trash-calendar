@@ -1,4 +1,10 @@
+# Deprecation
+The code of this fork is hard to maintain, and my time is scarce. Thus, archiving this.
+
+Have a look at https://github.com/lrswss/akal2ical for your needs!
+
 # Karlsruhe Trash Calendar
+
 
 A server that parses official Karlsruhe trash collection dates and serves them in iCalendar format.
 
